@@ -1,0 +1,18 @@
+{
+  "app_name": "MarinaDoc",
+  "window_title": "MarinaDoc — Document Generator (DEMO)",
+  "paths": {
+    "templates_dir": "templates",
+    "output_dir": "output",
+    "preview_dir": "output/preview"
+  },
+  "templates": {
+    "act_word_template_v2": "blank_templates/act_demo.docx",
+    "act_word_template_ip_v2": "blank_templates/act_demo.docx",
+    "ks2_template_org_org": "blank_templates/ks2_demo.xlsx",
+    "ks2_template_ip": "blank_templates/ks2_demo.xlsx",
+    "ks3_template_org_org": "blank_templates/ks3_demo.xlsx",
+    "ks3_template_ip": "blank_templates/ks3_demo.xlsx"
+  },
+  "logging_config_path": "config/logging.json"
+}

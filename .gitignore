@@ -1,0 +1,112 @@
+# Build and distribution
+*.exe
+build/
+dist/
+dist_release/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+*.dist-info/
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Databases and caches
+*.sqlite
+*.sqlite3
+*.db
+cache/
+tmp/
+temp/
+.pytest_cache/
+
+# Application output
+output/
+generated/
+preview/
+
+# Word lock files
+~$*.docx
+~$*.doc
+
+# Excel lock files
+~$*.xlsx
+~$*.xls
+
+# Local config overrides
+config/app_config.local.json
+config/*.local.*
+
+# Analysis and debug dumps
+analyze_*.py
+*_analysis.txt
+*_analysis_output.txt
+contract_start.txt
+act_template_*_content.txt
+ks*_analysis.txt
+
+# Build spec and packaging
+build.spec
+create_icon.py
+create_shortcut.py
+
+# Archived versions and backups
+*.zip
+*.tar.gz
+*.rar
+backup*/
+backups/
+
+# Documentation drafts
+docs/draft*/
+docs/notes*/
+
+# AI context files (may contain sensitive project history)
+QWEN.md
+
+# Client-specific templates and documents
+# (Only demo templates are published)
+templates/incoming/
+templates/blank_templates/*.docx
+templates/blank_templates/*.xlsx
+templates/samples_filled/*.docx
+templates/samples_filled/*.xlsx
+
+# Test fixtures with real data
+tests/fixtures/real_*.docx
+tests/fixtures/real_*.xlsx
