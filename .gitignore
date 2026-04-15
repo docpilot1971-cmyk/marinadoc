@@ -107,3 +107,4 @@ templates/samples_filled/
 # Test fixtures with real data
 tests/fixtures/real_*.docx
 tests/fixtures/real_*.xlsx
+.qwen/
