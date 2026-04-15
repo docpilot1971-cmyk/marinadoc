@@ -54,6 +54,9 @@ cache/
 tmp/
 temp/
 .pytest_cache/
+.pytest_local_tmp/
+.coverage
+htmlcov/
 
 # Application output
 output/
@@ -86,9 +89,7 @@ create_icon.py
 create_shortcut.py
 
 # Archived versions and backups
-*.zip
-*.tar.gz
-*.rar
+MarinaDoc_v*.zip
 backup*/
 backups/
 
@@ -96,16 +97,12 @@ backups/
 docs/draft*/
 docs/notes*/
 
-# AI context files (may contain sensitive project history)
+# AI / agent files
 QWEN.md
+.qwen/
 
-# Client-specific templates and documents
-# (Only demo templates are published)
-templates/incoming/
-templates/blank_templates/*.docx
-templates/blank_templates/*.xlsx
-templates/samples_filled/*.docx
-templates/samples_filled/*.xlsx
+# Client-specific filled documents
+templates/samples_filled/
 
 # Test fixtures with real data
 tests/fixtures/real_*.docx
